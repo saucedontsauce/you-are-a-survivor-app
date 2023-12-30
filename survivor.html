@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<head>
+    <title> You Are A Survivor App
+    </title>
+    <link href="survivor.css" rel="stylesheet">
+</head>
+<body>
+    <div id="indexRootDiv">
+        <fieldset id="indexFieldSet">
+            <h1>* * * YOU ARE A SURVIVOR * * *
+            </h1>
+            <label for="userAge">
+                <h2>What is your age in years?
+                </h2>
+            </label>
+            <input id="userAge" type="number" placeholder="54" min="1" max="999">
+            <br />
+            <br />
+            <br />
+            <button class="designedButton" type="submit" onclick="enterUserAge()">Click here to submit your age.</button>
+            <br />
+            <div id="indexResponse"></div> 
+            <button class="designedButton" onclick="enterUserAgeAgain()" type="submit">Click here to start again.</button>
+        </fieldset>
+    </div>
+    </body>
+    <script src="survivor.js"></script>
+    <footer>
+        <p>© 2023
+        <script>    
+        if (new Date().getFullYear() != 2022) {
+           document.write(' - ' + new Date().getFullYear());
+        }</script>
+        <br />
+        <a href="https://github.com/lemonadedance">lemonadedance</a></p>
+    </footer>
+</html>
