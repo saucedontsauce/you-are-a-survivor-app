@@ -51,7 +51,7 @@ input {
 footer {
     text-align: center;
     background-color: black;
-    width: 20%;
+    width: fit-content;
     margin: 5% auto;
 }
 a:link {
